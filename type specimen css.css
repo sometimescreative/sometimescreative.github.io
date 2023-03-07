@@ -1,0 +1,129 @@
+html { background: #3d344c; 
+        font-size: 16px;
+        }
+body { 
+    background: #3d344c;
+    width: 2100px;
+    margin: 0 auto;
+    padding: 4rem;
+    border-right: solid #d3a46d;
+    border-right-width: 5px;
+    border-left: solid #d3a46d;
+    border-left-width: 5px;
+    font-size: 2rem;
+    height: 100%;
+    font-family: 'Martel', serif;
+    text-align: center;
+    max-width: 300rem;
+
+    }
+
+    a:hover {
+        color:#a98ec2;
+        text-decoration: none;
+         }
+    a {
+  color: #d3a46d;
+        text-decoration: none;
+        }
+
+header {
+    font-family: "League Spartan", sans-serif;
+}
+
+h1 { color: #d3a46d;
+     font-size: 130px;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+    padding: 1.8rem;
+    border-bottom: 10rem; 
+    border-bottom: solid #a98ec2; 
+    line-height: 10rem;
+    border-bottom-width: 5px;
+    margin-bottom: 7rem;
+    max-width: 300rem;
+
+ }
+
+h2 { color: #d3a46d;
+    
+    
+    text-align: center;
+}
+
+h3 { color: #d3a46d;
+    font-family: "League Spartan", sans-serif;
+    text-align: center;
+}
+
+p {color: #d3a46d;
+    text-align: center;
+    margin-bottom: 7rem;
+  
+}
+
+li { color: #d3a46d;
+  text-align: center;
+}
+
+.League { font-size: 3rem;
+        font-family: "League Spartan", sans-serif;
+        line-height: 4.6rem;
+        width: 65%;
+        text-align: center;
+        margin:0 auto;
+
+         }
+
+.Alphabet { font-size: 3rem;
+    font-family: "League Spartan", sans-serif; 
+    text-align: center;
+    letter-spacing: 1.5rem;
+    line-height: 5rem;
+    padding-bottom: 1rem;
+}
+
+.Martel { font-size: 3rem;
+          font-family: 'Martel', serif;
+          padding: 10px;
+          line-height: 3rem;
+          margin: 7rem;
+          border-bottom: 5px; 
+          border-bottom: solid #a98ec2; 
+          border-bottom-width: 5px;
+          max-width: 300rem;
+}
+          
+.MartelBody { font-size: 2rem;
+            font-family: 'Martel', serif;
+            width: 65%;
+            text-align: center;
+             margin:0 auto;
+             line-height: 3.5rem;
+             }
+
+
+.Alphabet2 { font-size: 2rem;
+    font-family: 'martel', serif; 
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height: 4.5rem;
+    padding-bottom: 10rem;
+}
+
+.fillertext { font-size: 1.5rem;
+    width: 60%;
+    font-family: 'martel', serif;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 3rem;
+    border-top: 5px; 
+    border-top: solid #a98ec2; 
+    border-top-width: 5px;
+    padding-top: 7rem;
+}
+
+
+
+
+ 
