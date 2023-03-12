@@ -52,7 +52,7 @@ body {
 }
 .row2 {
   display: flex;
-  padding: 15px;
+  padding: 20px;
   border-bottom: solid 3px #a98ec2;
   text-align: center;
   
@@ -60,7 +60,7 @@ body {
 }
 .column {
   flex: 20%;
-  padding: 15px;
+  padding: 20px;
   align-content: center;
 
 }
