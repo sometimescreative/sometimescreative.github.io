@@ -46,20 +46,22 @@ body {
  .row {
   display: flex;
   padding: 20px;
-  
+  text-align: center;
   border-top: solid 3px #a98ec2;
   
 }
 .row2 {
   display: flex;
-  padding: 20px;
+  padding: 15px;
   border-bottom: solid 3px #a98ec2;
+  text-align: center;
   
   
 }
 .column {
   flex: 20%;
-  padding: 20px;
+  padding: 15px;
+  align-content: center;
 
 }
 
