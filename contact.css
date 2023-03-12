@@ -59,7 +59,6 @@ body {
      font-size: 30px;
      font-weight: 200;
 }
- 
  h1 {
      font-size: 60px;
      line-height: 2rem;
@@ -67,10 +66,8 @@ body {
      font-family: 'League Spartan', sans-serif;
      font-weight: 400;
      padding: 0rem;
-     margin-top: 3.8rem;
 }
-
-p {   
+ p {
      font-size: 30px;
      line-height: 3.5rem;
      text-align: center;
@@ -78,64 +75,47 @@ p {
      font-weight: 200;
      padding: .2rem;
 }
-
-
-
-.contact-box
-{
-  width: 20%;
-  background-color: #3d344c;
-  border: 2px solid #d3a46d;
-  height: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -30%);
-  position: fixed;
+ .contact-box {
+     width: 20%;
+     background-color: #3d344c;
+     border: 2px solid #d3a46d;
+     height: 50%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -30%);
+     position: fixed;
 }
-
-form
-{ margin: 10%;
+ form {
+     margin: 10%;
 }
-
-.input-field
-{ width: 95%;
-height: 40px;
-margin-top: 10%;
-margin-right: 10%;
-padding-left: 10%;
-border: 2px solid #d3a46d;
-border-radius: 14px;
-outline: none;
-background-color: #3d344c;
+ .input-field {
+     width: 95%;
+     height: 40px;
+     margin-top: 10%;
+     text-align: left;
+     border: 2px solid #d3a46d;
+     border-radius: 14px;
+     outline: none;
+     background-color: #3d344c;
 }
-
-input[type=text] {
-    color: #d3a46d;
-
+ input[type=text] {
+     color: #d3a46d;
 }
-
-
-
-.textarea-field
-{
-  
-
-  background-color: #3d344c;
-  color:#d3a46d;
-  padding-bottom: 40%;
-  }
-
-.btn
-{
-  border-radius: 20px;
-  color: #d3a46d;
-  margin-top: 18px;
-  font-family: "League Spartan", sans-serif;
-  font-weight: 200;
-  padding: 10px;
-  background-color: #3d344c;
-  font-size: 23px;
-  border: 2px solid;
-  cursor: pointer;
-  position: center;
+ .textarea-field {
+     background-color: #3d344c;
+     color:#d3a46d;
+     padding-bottom: 40%;
+}
+ .btn {
+     border-radius: 20px;
+     color: #d3a46d;
+     margin-top: 18px;
+     font-family: "League Spartan", sans-serif;
+     font-weight: 200;
+     padding: 10px;
+     background-color: #3d344c;
+     font-size: 23px;
+     border: 2px solid;
+     cursor: pointer;
+     position: center;
 }
