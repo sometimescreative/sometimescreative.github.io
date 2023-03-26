@@ -58,16 +58,19 @@ body {
      text-align: center;
      font-size: 30px;
      font-weight: 200;
+     margin-bottom: 5%;
 }
  h1 {
-     font-size: 60px;
+     font-size: 5rem;
      line-height: 2rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 400;
-     padding: 0rem;
+     padding: 1.5%;
+     
 }
- p {
+
+p {   
      font-size: 30px;
      line-height: 3.5rem;
      text-align: center;
@@ -82,7 +85,9 @@ body {
      top: 50%;
      left: 50%;
      transform: translate(-50%, -30%);
-     position: fixed;
+     position: sticky;
+     margin-top: 14%;
+     text-align: center;
 }
  form {
      margin: 10%;
