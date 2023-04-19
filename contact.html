@@ -36,9 +36,11 @@
     Please leave your name and information and I'll get back to you as soon as possible!
   </header>
   <div class="contact-box">
-    <form>
+    <form action="welcome.php" method="post">
       <input type="text" class="input-field" placeholder="Your Name"> <input type="text" class="input-field" placeholder="Email"> 
-      <textarea type="text" class="input-field textarea-field" placeholder="Your Message"></textarea> <button type="button" class="btn"><strong>Send Message</strong></button>
+      <textarea type="text" class="input-field textarea-field" placeholder="Your Message"></textarea> 
+      <input type="submit" class="btn" value="Send Message" />
+
     </form>
   </div>
 </body>
