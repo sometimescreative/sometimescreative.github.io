@@ -5,6 +5,10 @@ body {
      background: #3d344c;
      font-size: 16px;
      color: #d3a46d;
+     height: 100%;
+}
+html {
+  height: 100%;
 }
  .navbar {
      font-family: 'League Spartan', sans-serif;
@@ -138,5 +142,69 @@ body {
      border: 2px solid;
      cursor: pointer;
 }
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 20%;
+  grid-auto-rows: minmax(150px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  grid-template-areas: "header header"
+}
+
+.grid-item-1 {
+  grid-area: header;
+  font-family: "League Spartan", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid-item {
+  
+  position: relative;
+  font-size: 25px;
+  padding: 20px;
+  padding-top: 50px;
+  border: 1px solid #d3a46d;
+  text-align: center;
+  
+  
+}
+
+
+
+
+
+
+
+
+
 
 
