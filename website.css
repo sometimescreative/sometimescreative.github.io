@@ -95,19 +95,23 @@ body {
      font-weight: 200;
      padding: .2rem;
 }
+
+ 
+
  .contact-box {
      width: 20%;
      background-color: #3d344c;
      border: 2px solid #d3a46d;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -30%);
+     transform: translate(-50%, -40%);
      position: relative;
-     margin-top: 14%;
+     margin-top: 15%;
      text-align: center;
 }
  form {
      margin: 10%;
+     position: relative;
 }
  .input-field {
      width: 95%;
@@ -139,6 +143,7 @@ body {
      font-size: 23px;
      border: 2px solid;
      cursor: pointer;
+     position: relative;
 }
 
 .grid-container {
@@ -151,7 +156,8 @@ body {
   padding: 20px;
   width: 100%;
   justify-content: center;
-  grid-template-areas: "header header"
+  grid-template-areas: "header header";
+  margin-top: -7%;
 }
 
 .grid-item-1 {
@@ -162,11 +168,12 @@ body {
 .grid-item {
   
   position: relative;
-  font-size: 25px;
-  padding: 20px;
-  padding-top: 50px;
+  font-size: 2rem;
+  padding: 4rem;
+  
   border: 1px solid #d3a46d;
   text-align: center;
+
   
   
 }
