@@ -86,6 +86,22 @@ body {
      font-weight: 400;
      padding: 1.5%;
 }
+ h2 {
+     font-size: 3rem;
+     line-height: 1.8rem;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+ h3 {
+     font-size: 2.5rem;
+     line-height: 1.5rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
  p {
      font-size: 30px;
      line-height: 3.5rem;
@@ -177,4 +193,53 @@ body {
      grid-template-areas: "header header";
      margin-top: 0%;
 }
- 
+ table.table1 {
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+     margin-top: -8%;
+     align=centler;
+     margin-bottom: 5%;
+}
+ table.table1 tr {
+     height: 13rem;
+     max-width: 20%;
+     padding: 10%;
+     font-size: 2rem;
+     line-height: 3rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     overflow: auto;
+}
+ table.table1 th {
+     overflow: auto;
+     padding: 5%;
+}
+ table, td, th {
+     border: 2px solid #d3a46d;
+}
+ table.table2 {
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+}
+ table.table2 tr {
+     height: 13rem;
+     padding: 10%;
+     font-size: 2rem;
+     line-height: 3rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     overflow: auto;
+}
+ table.table2 td{
+     padding: 4rem;
+}
+ table.table2 th {
+     overflow: auto;
+     padding: 5%;
+}
