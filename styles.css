@@ -80,7 +80,7 @@ body {
 }
  h1 {
      font-size: 5rem;
-     line-height: 2rem;
+     line-height: 5rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 400;
@@ -120,6 +120,7 @@ body {
      position: relative;
      margin-top: 15%;
      text-align: center;
+     overflow: auto;
 }
  form {
      margin: 10%;
@@ -200,6 +201,7 @@ body {
      margin-top: -8%;
      align=centler;
      margin-bottom: 5%;
+     border-collapse:collapse;
 }
  table.table1 tr {
      height: 13rem;
@@ -225,6 +227,7 @@ body {
      width: 60%;
      margin-top: 5%;
      margin-bottom: 5%;
+     border-collapse:collapse;
 }
  table.table2 tr {
      height: 13rem;

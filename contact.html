@@ -34,11 +34,12 @@
     <h1>Contact Me</h1>
     <header> Please leave your name and information and I'll get back to you as soon as possible! </header>
     <div class="contact-box">
-      <form action="welcome.php" method="post">
-        <input type="text" class="input-field" name="name" placeholder="Your Name">
+      <form name="contact" form action="welcome.php" form method="post" action="welcome.php">
+
+        <input type="text" class="input-field" name="name" placeholder="Your Name"> 
         <input type="text" class="input-field" name="email" placeholder="Email">
         <textarea type="text" class="input-field textarea-field" name="comment" placeholder="Your Message"> </textarea>
-        <input type="submit" class="btn" value="Send Message" />
+        <input type="submit" class="btn" name="submit" value="Send Message" />
       </form>
     </div>
     <table class=table1>
@@ -47,11 +48,11 @@
           <h2>Other Ways to Contact Me:</h2>
         </th>
       <tr>
-        <td>My Email:</td>
+        <td><strong>My Email:</strong></td>
         <td>SometimesCreativeDesign@gmail.com</td>
       </tr>
       <tr>
-        <td>My Facebook:</td>
+        <td><strong>My Facebook:</strong></td>
         <td>https://www.facebook.com/SometimesCreativeDesign/</td>
       </tr>
     </table>
