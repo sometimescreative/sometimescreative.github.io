@@ -79,6 +79,9 @@ body {
      font-weight: 200;
      margin-bottom: 5%;
 }
+
+
+
  h1 {
      font-size: 5rem;
      line-height: 2rem;
@@ -87,6 +90,8 @@ body {
      font-weight: 400;
      padding: 1.5%;
 }
+
+
  p {
      font-size: 30px;
      line-height: 3.5rem;
@@ -104,7 +109,7 @@ body {
      border: 2px solid #d3a46d;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -40%);
+     transform: translate(-50%, -50%);
      position: relative;
      margin-top: 15%;
      text-align: center;
@@ -170,7 +175,7 @@ body {
   position: relative;
   font-size: 2rem;
   padding: 4rem;
-  
+  line-height: 4rem;
   border: 1px solid #d3a46d;
   text-align: center;
 
@@ -181,7 +186,19 @@ body {
 
 
 
-
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 10% 48%;
+  grid-auto-rows: minmax(150px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  grid-template-areas: "header header";
+  margin-top: 0%;
+}
 
 
 
