@@ -43,6 +43,8 @@ body {
      text-decoration: underline 2px;
      background: #d3a46d;
 }
+
+
  .column {
      justify-content: center;
      align-items: center;
@@ -55,6 +57,8 @@ body {
   width: 100%;
   border-top: solid 2px #a98ec2;
   border-bottom: solid 2px #a98ec2;
+  
+  margin-bottom: 3%;
   
   
 } 
@@ -104,6 +108,16 @@ body {
   border: solid 3px #a98ec2;
   padding: 1%;
 }
+
+.caption2 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  border: solid 3px #a98ec2;
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
  header {
      font-family: "League Spartan", sans-serif;
      text-align: center;
