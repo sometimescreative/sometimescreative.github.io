@@ -43,8 +43,6 @@ body {
      text-decoration: underline 2px;
      background: #d3a46d;
 }
-
-
  .column {
      justify-content: center;
      align-items: center;
@@ -52,25 +50,19 @@ body {
      padding: 0rem;
      margin: 0rem;
 }
-
-.wrapper {
-  width: 100%;
-  border-top: solid 2px #a98ec2;
-  border-bottom: solid 2px #a98ec2;
-  
-  margin-bottom: 3%;
-  
-  
-} 
-
-.container {
+ .wrapper {
+     width: 100%;
+     border-top: solid 2px #a98ec2;
+     border-bottom: solid 2px #a98ec2;
+     margin-bottom: 3%;
+}
+ .container {
      border-top: solid 2px #a98ec2;
      border-bottom: solid 2px #a98ec2;
      display: flex;
      justify-content: center;
      align-items: center;
      height: 30%;
-    
 }
  img {
      display: flex;
@@ -83,10 +75,8 @@ body {
      margin-bottom: 2rem;
      border: solid 3px #a98ec2;
      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-     
 }
-
-.image2 {
+ .image2 {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -97,27 +87,22 @@ body {
      margin-bottom: 2rem;
      border: solid 3px #a98ec2;
      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-     
 }
-
-
-.caption {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  border: solid 3px #a98ec2;
-  padding: 1%;
+ .caption {
+     text-align: center;
+     width: 60%;
+     margin: auto;
+     border: solid 3px #a98ec2;
+     padding: 1%;
 }
-
-.caption2 {
-  text-align: center;
-  width: 60%;
-  margin: auto;
-  border: solid 3px #a98ec2;
-  padding: 1%;
-  margin-bottom: 2%;
+ .caption2 {
+     text-align: center;
+     width: 60%;
+     margin: auto;
+     border: solid 3px #a98ec2;
+     padding: 1%;
+     margin-bottom: 2%;
 }
-
  header {
      font-family: "League Spartan", sans-serif;
      text-align: center;
@@ -293,3 +278,4 @@ body {
      overflow: auto;
      padding: 5%;
 }
+ 
