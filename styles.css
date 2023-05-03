@@ -142,28 +142,22 @@ body {
      font-weight: 200;
      padding: .2rem;
 }
-.container2 {
-     
+ .container2 {
      display: flex;
      justify-content: center;
      align-items: center;
-     
-} 
-
-.container3 {
-     
+}
+ .container3 {
      display: flex;
      width: 100%;
-     
-} 
-
-.contact-box {
+     justify-content: center;
+     align-items: center;
+}
+ .contact-box {
      width: 30rem;
      background-color: #3d344c;
      border: 2px solid #d3a46d;
      text-align: center;
-     
-     
 }
  form {
      margin: 10%;
@@ -238,24 +232,27 @@ body {
      margin-top: 0%;
 }
  table.table1 {
-     margin-left: auto;
-     margin-right: auto;
+     
      width: 60%;
-     margin-top: 6%;
-     align=centler;
-     margin-bottom: 5%;
+     margin-top: 10rem;
+     justify-content: center;
+     margin-bottom: 10rem;
      border-collapse:collapse;
 }
  table.table1 tr {
      height: 13rem;
      max-width: 20%;
-     padding: 10%;
+     padding: 100%;
      font-size: 2rem;
      line-height: 3rem;
      text-align: center;
      font-family: 'Martel', serif;
      font-weight: 400;
      overflow: auto;
+}
+
+table.table1 td {
+    padding: 2rem;
 }
  table.table1 th {
      overflow: auto;
@@ -289,4 +286,3 @@ body {
      overflow: auto;
      padding: 5%;
 }
- 
