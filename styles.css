@@ -281,6 +281,7 @@ table.table1 td {
  table.table2 td{
      font-size: 25px;
      border: 2px solid #d3a46d;
+     padding: 15px;
 }
  table.table2 th {
      overflow: auto;
