@@ -291,7 +291,7 @@ table.table1 td {
  
   p {
      font-size: 20px;
-     line-height: 3.5rem;
+     line-height: 2rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
@@ -366,7 +366,7 @@ table.table1 td {
   
   .caption {
      text-align: center;
-     width: 100%;
+     width: 80%;
      margin: auto;
      border: solid 3px #a98ec2;
      padding: 1%;
