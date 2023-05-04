@@ -290,7 +290,7 @@ table.table1 td {
 @media all and (max-width: 1000px) {
  
   p {
-     font-size: 17px;
+     font-size: 20px;
      line-height: 3.5rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
@@ -355,7 +355,7 @@ table.table1 td {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 25rem;
+     width: 20rem;
      margin-left: auto;
      margin-right: auto;
      margin-top: 2rem;
@@ -370,5 +370,34 @@ table.table1 td {
      margin: auto;
      border: solid 3px #a98ec2;
      padding: 1%;
+}
+   table.table1 {
+     
+     width: 1%;
+     margin-top: 10rem;
+     justify-content: center;
+     margin-bottom: 10rem;
+     border-collapse:collapse;
+}
+ table.table1 tr {
+     height: 1rem;
+     letter-spacing: .1rem;
+     padding: 100%;
+     font-size: 1rem;
+     line-height: 2rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     overflow: auto;
+}
 
+table.table1 td {
+    padding: 2rem;
+}
+ table.table1 th {
+     overflow: auto;
+     padding: 1%;
+}
+ table, td, th {
+     border: 2px solid #d3a46d;
 }
