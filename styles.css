@@ -385,6 +385,10 @@ table.table1 td {
      line-height: 10px;
 }
 
+.caption2 {
+     margin-bottom: 2%;
+     width: 80%;
+}
  table, td, th {
      border: 2px solid #d3a46d;
 }
