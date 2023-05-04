@@ -23,8 +23,7 @@ body {
      border-top: 3px solid #a98ec2;
      border-bottom: 3px solid #a98ec2;
      background: #3d344c;
-     min-width: 80%;
-     min-height: 80%;
+     
 }
  .navbar li {
      display: inline-block;
@@ -291,7 +290,7 @@ table.table1 td {
 @media all and (max-width: 1000px) {
  
   p {
-     font-size: 20px;
+     font-size: 17px;
      line-height: 3.5rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
@@ -303,11 +302,73 @@ table.table1 td {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 10rem;
+     width: 12rem;
      margin-left: auto;
      margin-right: auto;
      margin-top: 2rem;
      margin-bottom: 2rem;
      border: solid 3px #a98ec2;
      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+  .navbar a {
+     text-decoration: none;
+     
+     
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     color: #d3a46d;
+     font-weight: 200;
+}
+  .navbar li {
+     
+     position: relative;
+     background: #3d344c 
+}
+  
+ h1 {
+     font-size: 2.5rem;
+     line-height: 4rem;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+  
+   h2 {
+     font-size: 2rem;
+     line-height: 3.7rem;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+ h3 {
+     font-size: 1.6rem;
+     line-height: 2rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+  
+  .image2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 25rem;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border: solid 3px #a98ec2;
+     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+  
+  .caption {
+     text-align: center;
+     width: 80%;
+     margin: auto;
+     border: solid 3px #a98ec2;
+     padding: 1%;
+
 }
