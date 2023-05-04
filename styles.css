@@ -280,7 +280,7 @@ body {
  table.table2 th {
      overflow: auto;
 }
- @media all and (max-width: 480px) {
+ @media all and (max-width: 680px) {
      p {
          font-size: 15px;
          line-height: 27px;
@@ -378,7 +378,7 @@ body {
      table.table2 {
          margin-left: auto;
          margin-right: auto;
-         width: 60%;
+         width: 90%;
          margin-top: 5%;
          margin-bottom: 5%;
     }
