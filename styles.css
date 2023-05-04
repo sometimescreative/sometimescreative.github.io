@@ -375,6 +375,16 @@ table.table1 td {
      line-height: 10px;
 }
 
+.caption2 {
+     text-align: center;
+     width: 80%;
+     margin: auto;
+     border: solid 3px #a98ec2;
+     padding: 1%;
+     line-height: 10px;
+     margin-bottom: 2%;
+}
+
  table, td, th {
      border: 2px solid #d3a46d;
 }
