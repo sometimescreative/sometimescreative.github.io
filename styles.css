@@ -23,12 +23,15 @@ body {
      border-top: 3px solid #a98ec2;
      border-bottom: 3px solid #a98ec2;
      background: #3d344c;
+   min-width: 10em;
      
 }
  .navbar li {
      display: inline-block;
-     position: relative;
-     background: #3d344c 
+     position: static;
+     background: #3d344c; 
+     min-width: 10em;
+     
 }
  .navbar a {
      text-decoration: none;
@@ -291,7 +294,7 @@ table.table1 td {
  
   p {
      font-size: 20px;
-     line-height: 1.5rem;
+     line-height: 3.5rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
@@ -310,21 +313,28 @@ table.table1 td {
      border: solid 3px #a98ec2;
      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
+  
+  .navbar {
+     font-family: 'League Spartan', sans-serif;
+     text-align: left;
+     top: 0px;
+     right:0;
+     left: 0;
+     
+}
   .navbar a {
      text-decoration: none;
-     justify-content: center;
-     align-items: center;
-    text-align: center;
+     display: block;
      
-     font-size: 1rem;
+     font-size: 14px;
      text-transform: uppercase;
      color: #d3a46d;
      font-weight: 200;
 }
   .navbar li {
-     
-     
-     background: #3d344c 
+     display: block;
+     border: 2px solid #a98ec2;
+     background: #3d344c; 
 }
   
  h1 {
@@ -373,16 +383,6 @@ table.table1 td {
      border: solid 3px #a98ec2;
      padding: 1%;
      line-height: 10px;
-}
-
-.caption2 {
-     text-align: center;
-     width: 80%;
-     margin: auto;
-     border: solid 3px #a98ec2;
-     padding: 1%;
-     line-height: 10px;
-     margin-bottom: 2%;
 }
 
  table, td, th {
