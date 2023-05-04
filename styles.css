@@ -434,8 +434,7 @@ table.table1 td {
 
 @media all and (max-width: 780px) {
 
-    body { 
-    background: white; }
+    
 
     p {
      font-size: 15px;
