@@ -231,33 +231,7 @@ body {
      grid-template-areas: "header header";
      margin-top: 0%;
 }
- table.table1 {
-     
-     width: 60%;
-     margin-top: 10rem;
-     justify-content: center;
-     margin-bottom: 10rem;
-     border-collapse:collapse;
-}
- table.table1 tr {
-     height: 13rem;
-     max-width: 20%;
-     padding: 100%;
-     font-size: 2rem;
-     line-height: 3rem;
-     text-align: center;
-     font-family: 'Martel', serif;
-     font-weight: 400;
-     overflow: auto;
-}
-
-table.table1 td {
-    padding: 2rem;
-}
- table.table1 th {
-     overflow: auto;
-     padding: 5%;
-}
+ 
  table, td, th {
      border: 2px solid #d3a46d;
 }
