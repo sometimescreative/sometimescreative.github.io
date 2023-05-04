@@ -261,10 +261,11 @@ table.table1 td {
  table.table2 {
      margin-left: auto;
      margin-right: auto;
-     width: 60%;
+     width: 40%;
      margin-top: 5%;
      margin-bottom: 5%;
      border-collapse:collapse;
+     padding: 3%;
 }
  table.table2 tr {
      height: 4rem;
