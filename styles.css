@@ -262,9 +262,7 @@ table.table1 td {
      overflow: auto;
      padding: 1%;
 }
- table, td, th {
-     border: 2px solid #d3a46d;
-}
+ 
  table.table2 {
      margin-left: auto;
      margin-right: auto;
@@ -275,7 +273,7 @@ table.table1 td {
 }
  table.table2 tr {
      height: 13rem;
-     padding: 10%;
+     
      font-size: 2rem;
      line-height: 3rem;
      text-align: center;
@@ -284,11 +282,12 @@ table.table1 td {
      overflow: auto;
 }
  table.table2 td{
-     padding: 4rem;
+     
+     border: 2px solid #d3a46d;
 }
  table.table2 th {
      overflow: auto;
-     padding: 5%;
+     
 }
 @media all and (max-width: 1000px) {
  
@@ -389,13 +388,13 @@ table.table1 td {
      margin-bottom: 2%;
      width: 80%;
 }
- table, td, th {
-     border: 2px solid #d3a46d;
+ table.table2 th {
+  border: none;
 }
   
   .container3 {
      display: flex;
-     width: 50%;
+     
      justify-content: center;
      align-items: center;
 }
@@ -406,7 +405,7 @@ table.table1 td {
      width: 60%;
      margin-top: 5%;
      margin-bottom: 5%;
-     border-collapse:collapse;
+     
 }
  table.table2 tr {
      height: 3%;
@@ -419,9 +418,11 @@ table.table1 td {
      
 }
  table.table2 td{
-     padding: 2rem;
+     padding: 10px;
 }
  table.table2 th {
      
-     padding: 5%;
+     padding: 10px;
 }
+  
+  
