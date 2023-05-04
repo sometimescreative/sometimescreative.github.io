@@ -235,17 +235,17 @@ body {
  table, td, th {
      border: 2px solid #d3a46d;
 }
- table.table2 {
+ table {
      margin-left: auto;
      margin-right: auto;
-     width: 60%;
-     margin-top: 5%;
-     margin-bottom: 5%;
+     width: 90rem;
+     margin-top: 5rem;
+     margin-bottom: 5rem;
      border-collapse:collapse;
 }
- table.table2 tr {
-     height: 13rem;
-     padding: 10%;
+ table tr {
+     height: 9rem;
+     padding: 4rem;
      font-size: 2rem;
      line-height: 3rem;
      text-align: center;
@@ -253,10 +253,10 @@ body {
      font-weight: 400;
      overflow: auto;
 }
- table.table2 td{
+ table td{
      padding: 4rem;
 }
- table.table2 th {
+ table th {
      overflow: auto;
-     padding: 5%;
+     padding: 6rem;
 }
