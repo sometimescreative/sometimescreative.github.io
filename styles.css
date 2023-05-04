@@ -291,7 +291,7 @@ table.table1 td {
  
   p {
      font-size: 20px;
-     line-height: 2rem;
+     line-height: 3.5rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
@@ -312,7 +312,9 @@ table.table1 td {
 }
   .navbar a {
      text-decoration: none;
-     
+     justify-content: center;
+     align-items: center;
+    text-align: center;
      
      font-size: 1.5rem;
      text-transform: uppercase;
@@ -321,7 +323,7 @@ table.table1 td {
 }
   .navbar li {
      
-     position: relative;
+     
      background: #3d344c 
 }
   
@@ -370,34 +372,42 @@ table.table1 td {
      margin: auto;
      border: solid 3px #a98ec2;
      padding: 1%;
+     line-height: 10px;
 }
-   table.table1 {
-     
-     width: .5%;
-     margin-top: 2%;
+
+ table, td, th {
+     border: 2px solid #d3a46d;
+}
+  
+  .container3 {
+     display: flex;
+     width: 50%;
      justify-content: center;
-     margin-bottom: 2%;
+     align-items: center;
+}
+  
+  table.table2 {
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+     margin-top: 5%;
+     margin-bottom: 5%;
      border-collapse:collapse;
 }
- table.table1 tr {
-     height: 1%;
-     letter-spacing: .1rem;
+ table.table2 tr {
+     height: 3%;
      padding: 10%;
-     font-size: 1rem;
-     line-height: 1%r;
+     font-size: 2rem;
+     line-height: 3rem;
      text-align: center;
      font-family: 'Martel', serif;
      font-weight: 400;
-     overflow: auto;
+     
 }
-
-table.table1 td {
-    padding: 2%;
+ table.table2 td{
+     padding: 4rem;
 }
- table.table1 th {
-     overflow: auto;
-     padding: 1%;
-}
- table, td, th {
-     border: 2px solid #d3a46d;
+ table.table2 th {
+     
+     padding: 5%;
 }
