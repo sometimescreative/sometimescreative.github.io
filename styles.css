@@ -430,4 +430,147 @@ table.table1 td {
      padding: 10px;
 }
   
+}
+
+@media all and (max-width: 780px) {
+
+    body { 
+    background: white; }
+
+    p {
+     font-size: 15px;
+     line-height: 27px;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 200;
+     padding: .2rem;
+}
   
+  img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 12rem;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border: solid 3px #a98ec2;
+     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+  
+  .navbar {
+     font-family: 'League Spartan', sans-serif;
+     text-align: center;
+     
+     top: 0px;
+     right:0;
+     left: 0;
+     
+}
+  .navbar a {
+     text-decoration: none;
+     display: inline-block;
+     min-width: 75px;
+     font-size: 12px;
+     text-transform: uppercase;
+     color: #d3a46d;
+     font-weight: 400;
+     border: 1px solid #a98ec2;
+     margin: 10px;
+     padding: .6rem 1.2rem;
+
+}
+  .navbar li {
+     display: inline-block;
+     
+     background: #3d344c; 
+}
+  
+ h1 {
+     font-size: 2.3rem;
+     line-height: 3.3rem;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+  
+   h2 {
+     font-size: 1.5rem;
+     line-height: 2.6rem;
+     text-align: center;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+ h3 {
+     font-size: 1.6rem;
+     line-height: 2rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     padding: 1.5%;
+}
+  
+  .image2 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 20rem;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border: solid 3px #a98ec2;
+     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+  
+  .caption {
+     text-align: center;
+     width: 80%;
+     margin: auto;
+     border: solid 3px #a98ec2;
+     padding: 1%;
+     line-height: 7px;
+}
+
+.caption2 {
+     margin-bottom: 2%;
+     width: 80%;
+}
+ table.table2 th {
+  border: none;
+}
+  
+  
+  
+  table.table2 {
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     
+}
+ table.table2 tr {
+     height: 3%;
+     padding: 10%;
+     
+     line-height: 2.3rem;
+     text-align: center;
+     font-family: 'Martel', serif;
+     font-weight: 400;
+     
+}
+ table.table2 td{
+     padding: 10px;
+     font-size: 12px;
+     line-height: 20px;
+}
+ table.table2 th {
+     
+     padding: 10px;
+}
+  
+}
