@@ -139,7 +139,7 @@ body {
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
-     padding: .2rem;
+     padding: 1rem;
 }
  .container2 {
      display: flex;
@@ -287,7 +287,7 @@ body {
          text-align: center;
          font-family: 'League Spartan', sans-serif;
          font-weight: 200;
-         padding: .2rem;
+         padding: 1rem;
     }
      img {
          display: flex;
@@ -409,7 +409,7 @@ body {
          text-align: center;
          font-family: 'League Spartan', sans-serif;
          font-weight: 200;
-         padding: .2rem;
+         padding: 1rem;
     }
      img {
          display: flex;
