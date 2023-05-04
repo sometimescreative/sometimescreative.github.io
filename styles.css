@@ -434,11 +434,11 @@ table.table1 td {
 
 @media all and (max-width: 780px) {
 
-    
+  
 
     p {
-     font-size: 15px;
-     line-height: 27px;
+     font-size: 20px;
+     line-height: 30px;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
@@ -449,7 +449,7 @@ table.table1 td {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 12rem;
+     width: 18rem;
      margin-left: auto;
      margin-right: auto;
      margin-top: 2rem;
@@ -470,14 +470,14 @@ table.table1 td {
   .navbar a {
      text-decoration: none;
      display: inline-block;
-     min-width: 75px;
-     font-size: 12px;
+     min-width: 120px;
+     font-size: 18px;
      text-transform: uppercase;
      color: #d3a46d;
      font-weight: 400;
      border: 1px solid #a98ec2;
      margin: 10px;
-     padding: .6rem 1.2rem;
+     padding: 1rem 2rem;
 
 }
   .navbar li {
@@ -487,8 +487,8 @@ table.table1 td {
 }
   
  h1 {
-     font-size: 2.3rem;
-     line-height: 3.3rem;
+     font-size: 3rem;
+     line-height: 4rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 400;
@@ -496,16 +496,16 @@ table.table1 td {
 }
   
    h2 {
-     font-size: 1.5rem;
-     line-height: 2.6rem;
+     font-size: 2.2rem;
+     line-height: 3rem;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 400;
      padding: 1.5%;
 }
  h3 {
-     font-size: 1.6rem;
-     line-height: 2rem;
+     font-size: 1.8rem;
+     line-height: 2.3rem;
      text-align: center;
      font-family: 'Martel', serif;
      font-weight: 400;
@@ -516,11 +516,11 @@ table.table1 td {
      display: flex;
      justify-content: center;
      align-items: center;
-     width: 20rem;
+     width: 25rem;
      margin-left: auto;
      margin-right: auto;
-     margin-top: 2rem;
-     margin-bottom: 2rem;
+     margin-top: 3rem;
+     margin-bottom: 3rem;
      border: solid 3px #a98ec2;
      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
@@ -530,12 +530,12 @@ table.table1 td {
      width: 80%;
      margin: auto;
      border: solid 3px #a98ec2;
-     padding: 1%;
-     line-height: 7px;
+     padding: 3%;
+     line-height: 12px;
 }
 
 .caption2 {
-     margin-bottom: 2%;
+     margin-bottom: 4%;
      width: 80%;
 }
  table.table2 th {
@@ -553,23 +553,23 @@ table.table1 td {
      
 }
  table.table2 tr {
-     height: 3%;
-     padding: 10%;
+     height: 5%;
+     padding: 12%;
      
-     line-height: 2.3rem;
+     line-height: 3rem;
      text-align: center;
      font-family: 'Martel', serif;
      font-weight: 400;
      
 }
  table.table2 td{
-     padding: 10px;
-     font-size: 12px;
-     line-height: 20px;
+     padding: 15px;
+     font-size: 16px;
+     line-height: 25px;
 }
  table.table2 th {
      
-     padding: 10px;
+     padding: 15px;
 }
   
 }
