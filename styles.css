@@ -23,14 +23,14 @@ body {
      border-top: 3px solid #a98ec2;
      border-bottom: 3px solid #a98ec2;
      background: #3d344c;
-   min-width: 10em;
+   
      
 }
  .navbar li {
      display: inline-block;
      position: static;
      background: #3d344c; 
-     min-width: 10em;
+     
      
 }
  .navbar a {
@@ -151,12 +151,7 @@ body {
      justify-content: center;
      align-items: center;
 }
- .container3 {
-     display: flex;
-     width: 100%;
-     justify-content: center;
-     align-items: center;
-}
+ 
  .contact-box {
      width: 30rem;
      background-color: #3d344c;
@@ -272,7 +267,8 @@ table.table1 td {
      border-collapse:collapse;
 }
  table.table2 tr {
-     height: 13rem;
+     height: 4rem;
+     width: 15rem;
      
      font-size: 2rem;
      line-height: 3rem;
@@ -282,18 +278,22 @@ table.table1 td {
      overflow: auto;
 }
  table.table2 td{
-     
+     font-size: 25px;
      border: 2px solid #d3a46d;
 }
  table.table2 th {
      overflow: auto;
      
+
 }
+
+
+
 @media all and (max-width: 1000px) {
  
   p {
      font-size: 15px;
-     line-height: 2.7rem;
+     line-height: 27px;
      text-align: center;
      font-family: 'League Spartan', sans-serif;
      font-weight: 200;
@@ -381,7 +381,7 @@ table.table1 td {
      margin: auto;
      border: solid 3px #a98ec2;
      padding: 1%;
-     line-height: 10px;
+     line-height: 7px;
 }
 
 .caption2 {
@@ -392,12 +392,7 @@ table.table1 td {
   border: none;
 }
   
-  .container3 {
-     display: flex;
-     
-     justify-content: center;
-     align-items: center;
-}
+  
   
   table.table2 {
      margin-left: auto;
@@ -410,7 +405,7 @@ table.table1 td {
  table.table2 tr {
      height: 3%;
      padding: 10%;
-     font-size: 1.3rem;
+     
      line-height: 2.3rem;
      text-align: center;
      font-family: 'Martel', serif;
@@ -419,6 +414,8 @@ table.table1 td {
 }
  table.table2 td{
      padding: 10px;
+     font-size: 12px;
+     line-height: 20px;
 }
  table.table2 th {
      
