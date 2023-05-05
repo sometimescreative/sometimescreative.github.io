@@ -279,6 +279,9 @@ body {
 }
  table.table2 th {
      overflow: auto;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding-bottom: 2rem;
 }
  @media all and (max-width: 680px) {
      p {
@@ -399,8 +402,10 @@ body {
          line-height: 20px;
     }
      table.table2 th {
-         padding: 10px;
-    }
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding-bottom: 1rem;
+}
 }
  @media all and (max-width: 1200px) {
      p {
@@ -521,6 +526,8 @@ body {
          line-height: 20px;
     }
      table.table2 th {
-         padding: 10px;
+     font-family: 'League Spartan', sans-serif;
+     font-weight: 400;
+     padding-bottom: .6rem;
     }
 }
