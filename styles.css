@@ -32,7 +32,7 @@ body {
      text-decoration: none;
      display: block;
      padding: 2rem 4rem;
-     font-size: 2.3rem;
+     font-size: 2rem;
      text-transform: uppercase;
      color: #d3a46d;
      font-weight: 200;
@@ -315,7 +315,7 @@ body {
          text-decoration: none;
          display: inline-block;
          min-width: 75px;
-         font-size: 12px;
+         font-size: 10px;
          text-transform: uppercase;
          color: #d3a46d;
          font-weight: 400;
@@ -438,8 +438,8 @@ body {
      .navbar a {
          text-decoration: none;
          display: inline-block;
-         min-width: 80px;
-         font-size: 18px;
+         min-width: 70px;
+         font-size: 12px;
          text-transform: uppercase;
          color: #d3a46d;
          font-weight: 400;
